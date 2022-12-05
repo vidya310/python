@@ -1,0 +1,5 @@
+user_list=(input("Enter the list of colors separated by comma:"))
+color_list=user_list.split(",")
+print("List:",color_list)
+print("The first color in the list is:",color_list[0])
+print("The last color in the list is:",color_list[-1])
